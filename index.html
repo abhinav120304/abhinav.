@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7f4e447856.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src=""class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        
+        <div class="header-text">
+            
+           
+        </div>
+        
+        
+    </div>
+
+</div>
+
+<!-------------------About----------------->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="About-col-1">
+                <img src="abhiNew - Copy1.png">
+
+            </div>
+            <div class="About-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hello, I am Abhinav, a computer science student with a passion for staying abreast of emerging trends in the field. I am dedicated to continuous learning,actively exploring and acquiring knowledge about new developments in the field.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onClick="opentab('expirence')">Expirence</p>
+                    <p class="tab-links" onClick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab"id="skills">
+                    <ul>
+                        <li><span>PYTHON</span><br>Proficient in Python for diverse applications.</li>
+                        <li><span>JAVA</span><br> Skilled in Java for software development.</li>
+                        <li><span>ReactJs,JavaScript,HTML,CSS</span><br>Experienced in frontend technologies for dynamic web interfaces.</li>
+                        <li><span>DATA STRUCTURES</span><br>Knowledgeable in data structures for efficient data management.</li>
+                        <li><span>C PROGRAMMING</span><br> Proficient in C for versatile software development.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="expirence">
+                    <ul>
+                        <li><span>WEB DEVELOPER[college club]</span><br>Developing web applications for a college club.</li>
+                        <li><span>OPEN SOURCE CONTRIBUTER </span><br>Contributing to open-source projects(girlscript summer code 2024)</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents"id="education">
+                    <ul>
+                        <li><span>BTECH[CSE AIML]</span><br>GITAM UNIVERSITY</li>
+                        <li><span>INTERMEDIATE</span><br>AAKASH</li>
+                        <li><span>10</span><br>TIMPANY STEEL CITY SCHOOL</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------services----------->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p><b> we specialize in creating custom-designed websites that are responsive, user-friendly, and optimized for search engines. With our expertise and collaborative approach, we ensure that your website reflects your brand identity and provides an exceptional browsing experience for your visitors.
+
+                    Contact Us to get started</b></p>
+                    
+            </div>
+            
+            
+
+        </div>
+        
+    </div>
+</div>
+
+<!-------------------------portfolio--------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images-work-1.png">
+                <div class="layer">
+                    <h3>Open Cv</h3>
+                    <p>Utilizing OpenCV for innovative computer vision and machine learning solutions.</p>
+                    <a href="https://github.com/abhinav120304"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="web-work-2.jpg">
+                <div class="layer">
+                    <h3>WEB DEVELOPMENT</h3>
+                    <p>Building dynamic and responsive websites using modern web development technologies</p>
+                    <a href="https://github.com/abhinav120304"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Ai-work-3.jpg">
+                <div class="layer">
+                    <h3>AIML</h3>
+                    <p>Harnessing AIML for creating intelligent systems and predictive models</p>
+                    <a href="https://github.com/abhinav120304"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+</div>
+<!-----------contact-----------------> 
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>abhireddy120304@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9398635226</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/abhinav__1__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/abhinav-reddy-691442217/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href=""download class="btn btn2">Downlod CV</a>
+
+                
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="your Email"required>
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+
+
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzDeuMks1E9cG97DSpngCZknq3x912-bqlU0Ob8eX3Tz_dVfVTDS8AvqTeiOyneHTCYxw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    
+</body>
+</html>
